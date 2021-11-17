@@ -1,0 +1,17 @@
+[0.016s] Invoking command in '/home/ri-one/ws/robo_exp/build/robo_exp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8
+[0.069s] [35m[1mScanning dependencies of target move[0m
+[0.106s] [ 66%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[0.107s] [ 66%] [32mBuilding CXX object CMakeFiles/move.dir/src/main.cpp.o[0m
+[2.065s] [100%] [32m[1mLinking CXX executable move[0m
+[2.206s] [100%] Built target move
+[2.219s] Invoked command in '/home/ri-one/ws/robo_exp/build/robo_exp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8
+[2.262s] Invoking command in '/home/ri-one/ws/robo_exp/build/robo_exp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ri-one/ws/robo_exp/build/robo_exp
+[2.272s] -- Install configuration: ""
+[2.272s] -- Installing: /home/ri-one/ws/robo_exp/install/robo_exp/lib/robo_exp/move
+[2.272s] -- Set runtime path of "/home/ri-one/ws/robo_exp/install/robo_exp/lib/robo_exp/move" to ""
+[2.273s] CMake Error at cmake_install.cmake:61 (file):
+[2.273s]   file INSTALL cannot find "/home/ri-one/ws/robo_exp/launch": No such file or
+[2.273s]   directory.
+[2.273s] 
+[2.273s] 
+[2.274s] Invoked command in '/home/ri-one/ws/robo_exp/build/robo_exp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ri-one/ws/robo_exp/build/robo_exp

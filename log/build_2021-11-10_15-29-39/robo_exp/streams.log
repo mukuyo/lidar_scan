@@ -1,0 +1,67 @@
+[0.015s] Invoking command in '/home/ri-one/ws/robo_exp/build/robo_exp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ri-one/ws/robo_exp -DCMAKE_INSTALL_PREFIX=/home/ri-one/ws/robo_exp/install/robo_exp
+[0.082s] -- The C compiler identification is GNU 9.3.0
+[0.147s] -- The CXX compiler identification is GNU 9.3.0
+[0.152s] -- Check for working C compiler: /usr/bin/cc
+[0.231s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.232s] -- Detecting C compiler ABI info
+[0.311s] -- Detecting C compiler ABI info - done
+[0.326s] -- Detecting C compile features
+[0.326s] -- Detecting C compile features - done
+[0.330s] -- Check for working CXX compiler: /usr/bin/c++
+[0.420s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.421s] -- Detecting CXX compiler ABI info
+[0.511s] -- Detecting CXX compiler ABI info - done
+[0.525s] -- Detecting CXX compile features
+[0.526s] -- Detecting CXX compile features - done
+[0.529s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.558s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.558s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.795s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.853s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.861s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.950s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.985s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.083s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.157s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.159s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.160s] -- Looking for pthread.h
+[1.245s] -- Looking for pthread.h - found
+[1.245s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.330s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.330s] -- Looking for pthread_create in pthreads
+[1.397s] -- Looking for pthread_create in pthreads - not found
+[1.398s] -- Looking for pthread_create in pthread
+[1.479s] -- Looking for pthread_create in pthread - found
+[1.481s] -- Found Threads: TRUE  
+[1.673s] -- Found message_info: 0.0.0 (/home/ri-one/ssl_ws/RiAI/install/message_info/share/message_info/cmake)
+[1.988s] -- Found gui: 0.0.0 (/home/ri-one/ssl_ws/RiAI/install/gui/share/gui/cmake)
+[1.990s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.994s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[1.998s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.091s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.095s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.096s] -- Configured cppcheck include dirs: /home/ri-one/ws/robo_exp/include
+[2.096s] -- Configured cppcheck exclude dirs and/or files: 
+[2.101s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.101s] -- Configured cpplint exclude dirs and/or files: 
+[2.103s] -- Added test 'lint_cmake' to check CMake code style
+[2.108s] -- Added test 'uncrustify' to check C / C++ code style
+[2.108s] -- Configured uncrustify additional arguments: 
+[2.109s] -- Added test 'xmllint' to check XML markup files
+[2.113s] -- Configuring done
+[2.124s] -- Generating done
+[2.125s] -- Build files have been written to: /home/ri-one/ws/robo_exp/build/robo_exp
+[2.135s] Invoked command in '/home/ri-one/ws/robo_exp/build/robo_exp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/ri-one/ws/robo_exp -DCMAKE_INSTALL_PREFIX=/home/ri-one/ws/robo_exp/install/robo_exp
+[2.138s] Invoking command in '/home/ri-one/ws/robo_exp/build/robo_exp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8
+[2.185s] [35m[1mScanning dependencies of target move[0m
+[2.234s] [ 66%] [32mBuilding CXX object CMakeFiles/move.dir/src/main.cpp.o[0m
+[2.234s] [ 66%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[3.726s] [01m[K/home/ri-one/ws/robo_exp/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.726s] [01m[K/home/ri-one/ws/robo_exp/src/main.cpp:9:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[3.726s]     9 |   [01;31m[Kgeometry_msgs[m[K::msg::pose target_position;
+[3.726s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[4.166s] make[2]: *** [CMakeFiles/move.dir/build.make:63: CMakeFiles/move.dir/src/main.cpp.o] エラー 1
+[4.166s] make[2]: *** 未完了のジョブを待っています....
+[4.217s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move.dir/all] エラー 2
+[4.218s] make: *** [Makefile:141: all] エラー 2
+[4.221s] Invoked command in '/home/ri-one/ws/robo_exp/build/robo_exp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8

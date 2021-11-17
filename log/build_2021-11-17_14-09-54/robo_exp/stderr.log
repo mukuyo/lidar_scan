@@ -1,0 +1,123 @@
+In file included from [01m[K/home/ri-one/ws/robo_exp/src/main.cpp:2[m[K:
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:12:51:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KPointStamped[m[K’?
+   12 |  void callback_position(const geometry_msgs::msg::[01;31m[KPoseStamped[m[K::SharedPtr position);
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+      |                                                   [32m[KPointStamped[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:12:74:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kposition[m[K’
+   12 |  void callback_position(const geometry_msgs::msg::PoseStamped::SharedPtr [01;31m[Kposition[m[K);
+      |                                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:12:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kposition[m[K’
+   12 |  void callback_position[34m[K([m[Kconst geometry_msgs::msg::PoseStamped::SharedPtr[01;31m[K [m[K[32m[Kposition[m[K);
+      |                        [34m[K~[m[K                                                [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+      |                                                                         [32m[K)[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:12:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   12 |  void callback_position(const geometry_msgs::msg::PoseStamped::[01;31m[KSharedPtr[m[K position);
+      |                                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                                         [32m[K;[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:12:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition[m[K’ does not name a type
+   12 |  void callback_position(const geometry_msgs::msg::PoseStamped::SharedPtr [01;31m[Kposition[m[K);
+      |                                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:43:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPointStamped[m[K’?
+   15 |  rclcpp::Subscription<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>::SharedPtr subscriber_position;
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+      |                                           [32m[KPointStamped[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:43:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPointStamped[m[K’?
+   15 |  rclcpp::Subscription<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>::SharedPtr subscriber_position;
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+      |                                           [32m[KPointStamped[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |  rclcpp::Subscription<geometry_msgs::msg::PoseStamped[01;31m[K>[m[K::SharedPtr subscriber_position;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   15 |  rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::[01;31m[KSharedPtr[m[K subscriber_position;
+      |                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_position[m[K’ does not name a type
+   15 |  rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr [01;31m[Ksubscriber_position[m[K;
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ri-one/ws/robo_exp/src/move.cpp:1[m[K:
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:12:51:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KPointStamped[m[K’?
+   12 |  void callback_position(const geometry_msgs::msg::[01;31m[KPoseStamped[m[K::SharedPtr position);
+      |                                                   [01;31m[K^~~~~~~~~~~[m[K
+      |                                                   [32m[KPointStamped[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:12:74:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kposition[m[K’
+   12 |  void callback_position(const geometry_msgs::msg::PoseStamped::SharedPtr [01;31m[Kposition[m[K);
+      |                                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:12:73:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kposition[m[K’
+   12 |  void callback_position[34m[K([m[Kconst geometry_msgs::msg::PoseStamped::SharedPtr[01;31m[K [m[K[32m[Kposition[m[K);
+      |                        [34m[K~[m[K                                                [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+      |                                                                         [32m[K)[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:12:64:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   12 |  void callback_position(const geometry_msgs::msg::PoseStamped::[01;31m[KSharedPtr[m[K position);
+      |                                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                                         [32m[K;[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:12:74:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition[m[K’ does not name a type
+   12 |  void callback_position(const geometry_msgs::msg::PoseStamped::SharedPtr [01;31m[Kposition[m[K);
+      |                                                                          [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:43:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPointStamped[m[K’?
+   15 |  rclcpp::Subscription<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>::SharedPtr subscriber_position;
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+      |                                           [32m[KPointStamped[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:43:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPointStamped[m[K’?
+   15 |  rclcpp::Subscription<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>::SharedPtr subscriber_position;
+      |                                           [01;31m[K^~~~~~~~~~~[m[K
+      |                                           [32m[KPointStamped[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |  rclcpp::Subscription<geometry_msgs::msg::PoseStamped[01;31m[K>[m[K::SharedPtr subscriber_position;
+      |                                                      [01;31m[K^[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:54:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:57:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   15 |  rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::[01;31m[KSharedPtr[m[K subscriber_position;
+      |                                                         [01;31m[K^~~~~~~~~[m[K
+      |                                                                  [32m[K;[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.hpp:15:67:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_position[m[K’ does not name a type
+   15 |  rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr [01;31m[Ksubscriber_position[m[K;
+      |                                                                   [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:[m[K In constructor ‘[01m[KMove::Move()[m[K’:
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:5:4:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscriber_position[m[K’ was not declared in this scope
+    5 |    [01;31m[Ksubscriber_position[m[K = this->create_subscription<geometry_msgs::msg::PoseStamped>(
+      |    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:5:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPointStamped[m[K’?
+    5 |    subscriber_position = this->create_subscription<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>(
+      |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                        [32m[KPointStamped[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:5:72:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kgeometry_msgs::msg[m[K’; did you mean ‘[01m[KPointStamped[m[K’?
+    5 |    subscriber_position = this->create_subscription<geometry_msgs::msg::[01;31m[KPoseStamped[m[K>(
+      |                                                                        [01;31m[K^~~~~~~~~~~[m[K
+      |                                                                        [32m[KPointStamped[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:6:101:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMove::create_subscription<<expression error> >(const char [10], rclcpp::QoS, std::_Bind_helper<false, void (Move::*)(...), Move*, const std::_Placeholder<1>&>::type)[m[K’
+    6 |       "goal_pose", rclcpp::QoS(10), std::bind(&Move::callback_position, this, std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                                                     [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/ri-one/ws/robo_exp/src/move.hpp:2[m[K,
+                 from [01m[K/home/ri-one/ws/robo_exp/src/move.cpp:1[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  213 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:213:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:6:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+    6 |       "goal_pose", rclcpp::QoS(10), std::bind(&Move::callback_position, this, std::placeholders::_1)[01;31m[K)[m[K;
+      |                                                                                                     [01;31m[K^[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:[m[K At global scope:
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:14:56:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ in namespace ‘[01m[Kgeometry_msgs::msg[m[K’ does not name a type; did you mean ‘[01m[KPointStamped[m[K’?
+   14 | void Move::callback_position(const geometry_msgs::msg::[01;31m[KPoseStamped[m[K::SharedPtr position)
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+      |                                                        [32m[KPointStamped[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:14:79:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kposition[m[K’
+   14 | void Move::callback_position(const geometry_msgs::msg::PoseStamped::SharedPtr [01;31m[Kposition[m[K)
+      |                                                                               [01;31m[K^~~~~~~~[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:14:78:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kposition[m[K’
+   14 | void Move::callback_position[34m[K([m[Kconst geometry_msgs::msg::PoseStamped::SharedPtr[01;31m[K [m[K[32m[Kposition[m[K)
+      |                             [34m[K~[m[K                                                [01;31m[K^[m[K[32m[K~~~~~~~~[m[K
+      |                                                                              [32m[K)[m[K
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:14:79:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kposition[m[K’
+   14 | void Move::callback_position(const geometry_msgs::msg::PoseStamped::SharedPtr [01;31m[Kposition[m[K)
+      |                                                                               [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/move.dir/build.make:63: CMakeFiles/move.dir/src/main.cpp.o] エラー 1
+make[2]: *** 未完了のジョブを待っています....
+make[2]: *** [CMakeFiles/move.dir/build.make:76: CMakeFiles/move.dir/src/move.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move.dir/all] エラー 2
+make: *** [Makefile:141: all] エラー 2

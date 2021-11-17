@@ -1,0 +1,26 @@
+[0.017s] Invoking command in '/home/ri-one/ws/robo_exp/build/robo_exp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8
+[0.068s] [35m[1mScanning dependencies of target move[0m
+[0.104s] [ 33%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[5.328s] [ 66%] [32m[1mLinking CXX executable move[0m
+[5.618s] [100%] Built target move
+[5.631s] Invoked command in '/home/ri-one/ws/robo_exp/build/robo_exp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8
+[5.673s] Invoking command in '/home/ri-one/ws/robo_exp/build/robo_exp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ri-one/ws/robo_exp/build/robo_exp
+[5.683s] -- Install configuration: ""
+[5.683s] -- Installing: /home/ri-one/ws/robo_exp/install/robo_exp/lib/robo_exp/move
+[5.686s] -- Set runtime path of "/home/ri-one/ws/robo_exp/install/robo_exp/lib/robo_exp/move" to ""
+[5.686s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/ament_index/resource_index/package_run_dependencies/robo_exp
+[5.686s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/ament_index/resource_index/parent_prefix_path/robo_exp
+[5.686s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/ament_prefix_path.sh
+[5.686s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/ament_prefix_path.dsv
+[5.687s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/path.sh
+[5.687s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/path.dsv
+[5.687s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.bash
+[5.687s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.sh
+[5.687s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.zsh
+[5.687s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.dsv
+[5.687s] -- Installing: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.dsv
+[5.687s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/ament_index/resource_index/packages/robo_exp
+[5.688s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/cmake/robo_expConfig.cmake
+[5.688s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/cmake/robo_expConfig-version.cmake
+[5.689s] -- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.xml
+[5.690s] Invoked command in '/home/ri-one/ws/robo_exp/build/robo_exp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ri-one/ws/robo_exp/build/robo_exp

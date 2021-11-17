@@ -1,0 +1,16 @@
+/home/ri-one/ws/robo_exp/install/robo_exp/lib/robo_exp/move
+/home/ri-one/ws/robo_exp/install/robo_exp/share/ament_index/resource_index/package_run_dependencies/robo_exp
+/home/ri-one/ws/robo_exp/install/robo_exp/share/ament_index/resource_index/parent_prefix_path/robo_exp
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/ament_prefix_path.sh
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/ament_prefix_path.dsv
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/path.sh
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/path.dsv
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.bash
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.sh
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.zsh
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.dsv
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.dsv
+/home/ri-one/ws/robo_exp/install/robo_exp/share/ament_index/resource_index/packages/robo_exp
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/cmake/robo_expConfig.cmake
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/cmake/robo_expConfig-version.cmake
+/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.xml

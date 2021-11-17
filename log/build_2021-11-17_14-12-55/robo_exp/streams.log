@@ -1,0 +1,22 @@
+[0.017s] Invoking command in '/home/ri-one/ws/robo_exp/build/robo_exp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8
+[0.070s] [35m[1mScanning dependencies of target move[0m
+[0.106s] [ 33%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[1.687s] [01m[K/home/ri-one/ws/robo_exp/src/move.cpp:[m[K In member function ‘[01m[Kvoid Move::callback_position(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.687s] [01m[K/home/ri-one/ws/robo_exp/src/move.cpp:16:44:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kgeometry_msgs::msg::Point[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >[m[K’} and ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’})
+[1.687s]    16 |  target_position = position->pose.position.[01;31m[Kx[m[K;
+[1.687s]       |                                            [01;31m[K^[m[K
+[1.687s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose__struct.hpp:19[m[K,
+[1.687s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:21[m[K,
+[1.687s]                  from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[1.687s]                  from [01m[K/home/ri-one/ws/robo_exp/src/move.hpp:3[m[K,
+[1.688s]                  from [01m[K/home/ri-one/ws/robo_exp/src/move.cpp:1[m[K:
+[1.688s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >& geometry_msgs::msg::Point_<std::allocator<void> >::operator=(const geometry_msgs::msg::Point_<std::allocator<void> >&)[m[K’
+[1.688s]    31 | struct [01;36m[KPoint_[m[K
+[1.688s]       |        [01;36m[K^~~~~~[m[K
+[1.688s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kconst geometry_msgs::msg::Point_<std::allocator<void> >&[m[K’
+[1.688s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.hpp:31:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Point_<std::allocator<void> >& geometry_msgs::msg::Point_<std::allocator<void> >::operator=(geometry_msgs::msg::Point_<std::allocator<void> >&&)[m[K’
+[1.688s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/point__struct.hpp:31:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} to ‘[01m[Kgeometry_msgs::msg::Point_<std::allocator<void> >&&[m[K’
+[3.322s] make[2]: *** [CMakeFiles/move.dir/build.make:76: CMakeFiles/move.dir/src/move.cpp.o] エラー 1
+[3.322s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move.dir/all] エラー 2
+[3.322s] make: *** [Makefile:141: all] エラー 2
+[3.324s] Invoked command in '/home/ri-one/ws/robo_exp/build/robo_exp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8

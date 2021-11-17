@@ -1,0 +1,23 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found message_info: 0.0.0 (/home/ri-one/ssl_ws/RiAI/install/message_info/share/message_info/cmake)
+-- Found gui: 0.0.0 (/home/ri-one/ssl_ws/RiAI/install/gui/share/gui/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/ri-one/ws/robo_exp/build/robo_exp
+[ 33%] [32mBuilding CXX object CMakeFiles/move.dir/src/main.cpp.o[0m
+[01m[K/home/ri-one/ws/robo_exp/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ri-one/ws/robo_exp/src/main.cpp:9:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+    9 |   [01;31m[Kgeometry_msgs[m[K::msg::pose target_position;
+      |   [01;31m[K^~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/move.dir/build.make:63: CMakeFiles/move.dir/src/main.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move.dir/all] エラー 2
+make: *** [Makefile:141: all] エラー 2

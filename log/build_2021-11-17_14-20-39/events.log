@@ -1,0 +1,90 @@
+[0.000000] (-) TimerEvent: {}
+[0.000135] (robo_exp) JobQueued: {'identifier': 'robo_exp', 'dependencies': OrderedDict()}
+[0.000918] (robo_exp) JobStarted: {'identifier': 'robo_exp'}
+[0.013812] (robo_exp) JobProgress: {'identifier': 'robo_exp', 'progress': 'cmake'}
+[0.014616] (robo_exp) JobProgress: {'identifier': 'robo_exp', 'progress': 'build'}
+[0.015598] (robo_exp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ri-one/ws/robo_exp/build/robo_exp', '--', '-j8', '-l8'], 'cwd': '/home/ri-one/ws/robo_exp/build/robo_exp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ri-one'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '1486'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ri-one/ssl_ws/RiAI/install/sender/lib:/home/ri-one/ssl_ws/RiAI/install/proto_info/lib:/home/ri-one/ssl_ws/RiAI/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ri-one'), ('OLDPWD', '/home/ri-one/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '1223'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ri-one/ws/robo_exp/install:/home/ri-one/ssl_ws/RiAI/install:/home/ri-one/ws/ribero/install:/home/ri-one/ws/revero/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ri-one'), ('JOURNAL_STREAM', '8:42546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ri-one'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rionessl:@/tmp/.ICE-unix/1521,unix/rionessl:/tmp/.ICE-unix/1521'), ('INVOCATION_ID', 'ea6b5a996fb0405babdbfda19b940f12'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b930b81f_661b_4dc9_a9e6_e76ab4c841a4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ri-one/ws/robo_exp/install/robo_exp:/home/ri-one/ws/revero/install/revero:/home/ri-one/ssl_ws/RiAI/install/sender:/home/ri-one/ssl_ws/RiAI/install/reciever:/home/ri-one/ssl_ws/RiAI/install/proto_info:/home/ri-one/ssl_ws/RiAI/install/main:/home/ri-one/ssl_ws/RiAI/install/gui:/home/ri-one/ssl_ws/RiAI/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ri-one/ws/robo_exp/build/robo_exp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ri-one/ssl_ws/RiAI/install/sender/lib/python3.8/site-packages:/home/ri-one/ssl_ws/RiAI/install/proto_info/lib/python3.8/site-packages:/home/ri-one/ssl_ws/RiAI/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ri-one/ws/robo_exp/install/robo_exp:/home/ri-one/ws/revero/install/revero:/home/ri-one/ssl_ws/RiAI/install/sender:/home/ri-one/ssl_ws/RiAI/install/reciever:/home/ri-one/ssl_ws/RiAI/install/proto_info:/home/ri-one/ssl_ws/RiAI/install/main:/home/ri-one/ssl_ws/RiAI/install/gui:/home/ri-one/ssl_ws/RiAI/install/message_info:/opt/ros/foxy')]), 'shell': False}
+[0.069125] (robo_exp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target move\x1b[0m\n'}
+[0.099702] (-) TimerEvent: {}
+[0.105435] (robo_exp) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o\x1b[0m\n'}
+[0.199806] (-) TimerEvent: {}
+[0.300114] (-) TimerEvent: {}
+[0.400429] (-) TimerEvent: {}
+[0.500738] (-) TimerEvent: {}
+[0.601078] (-) TimerEvent: {}
+[0.701410] (-) TimerEvent: {}
+[0.801679] (-) TimerEvent: {}
+[0.902016] (-) TimerEvent: {}
+[1.002352] (-) TimerEvent: {}
+[1.102638] (-) TimerEvent: {}
+[1.202957] (-) TimerEvent: {}
+[1.303263] (-) TimerEvent: {}
+[1.403605] (-) TimerEvent: {}
+[1.503909] (-) TimerEvent: {}
+[1.604214] (-) TimerEvent: {}
+[1.704571] (-) TimerEvent: {}
+[1.804879] (-) TimerEvent: {}
+[1.905185] (-) TimerEvent: {}
+[2.005497] (-) TimerEvent: {}
+[2.105818] (-) TimerEvent: {}
+[2.206150] (-) TimerEvent: {}
+[2.306495] (-) TimerEvent: {}
+[2.406784] (-) TimerEvent: {}
+[2.507107] (-) TimerEvent: {}
+[2.607419] (-) TimerEvent: {}
+[2.707729] (-) TimerEvent: {}
+[2.808047] (-) TimerEvent: {}
+[2.908344] (-) TimerEvent: {}
+[3.008634] (-) TimerEvent: {}
+[3.108955] (-) TimerEvent: {}
+[3.209296] (-) TimerEvent: {}
+[3.309621] (-) TimerEvent: {}
+[3.409923] (-) TimerEvent: {}
+[3.510229] (-) TimerEvent: {}
+[3.610533] (-) TimerEvent: {}
+[3.710825] (-) TimerEvent: {}
+[3.811124] (-) TimerEvent: {}
+[3.911427] (-) TimerEvent: {}
+[4.011701] (-) TimerEvent: {}
+[4.112006] (-) TimerEvent: {}
+[4.212307] (-) TimerEvent: {}
+[4.312605] (-) TimerEvent: {}
+[4.412924] (-) TimerEvent: {}
+[4.513230] (-) TimerEvent: {}
+[4.613524] (-) TimerEvent: {}
+[4.713821] (-) TimerEvent: {}
+[4.814119] (-) TimerEvent: {}
+[4.914417] (-) TimerEvent: {}
+[5.014722] (-) TimerEvent: {}
+[5.115074] (-) TimerEvent: {}
+[5.215407] (-) TimerEvent: {}
+[5.280929] (robo_exp) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable move\x1b[0m\n'}
+[5.315579] (-) TimerEvent: {}
+[5.416007] (-) TimerEvent: {}
+[5.516346] (-) TimerEvent: {}
+[5.578162] (robo_exp) StdoutLine: {'line': b'[100%] Built target move\n'}
+[5.590901] (robo_exp) CommandEnded: {'returncode': 0}
+[5.616578] (-) TimerEvent: {}
+[5.618999] (robo_exp) JobProgress: {'identifier': 'robo_exp', 'progress': 'install'}
+[5.632669] (robo_exp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ri-one/ws/robo_exp/build/robo_exp'], 'cwd': '/home/ri-one/ws/robo_exp/build/robo_exp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ri-one'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '1486'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ri-one/ssl_ws/RiAI/install/sender/lib:/home/ri-one/ssl_ws/RiAI/install/proto_info/lib:/home/ri-one/ssl_ws/RiAI/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ri-one'), ('OLDPWD', '/home/ri-one/ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '1223'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ri-one/ws/robo_exp/install:/home/ri-one/ssl_ws/RiAI/install:/home/ri-one/ws/ribero/install:/home/ri-one/ws/revero/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ri-one'), ('JOURNAL_STREAM', '8:42546'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ri-one'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rionessl:@/tmp/.ICE-unix/1521,unix/rionessl:/tmp/.ICE-unix/1521'), ('INVOCATION_ID', 'ea6b5a996fb0405babdbfda19b940f12'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b930b81f_661b_4dc9_a9e6_e76ab4c841a4'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.83'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ri-one/ws/robo_exp/install/robo_exp:/home/ri-one/ws/revero/install/revero:/home/ri-one/ssl_ws/RiAI/install/sender:/home/ri-one/ssl_ws/RiAI/install/reciever:/home/ri-one/ssl_ws/RiAI/install/proto_info:/home/ri-one/ssl_ws/RiAI/install/main:/home/ri-one/ssl_ws/RiAI/install/gui:/home/ri-one/ssl_ws/RiAI/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ri-one/ws/robo_exp/build/robo_exp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ri-one/ssl_ws/RiAI/install/sender/lib/python3.8/site-packages:/home/ri-one/ssl_ws/RiAI/install/proto_info/lib/python3.8/site-packages:/home/ri-one/ssl_ws/RiAI/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ri-one/ws/robo_exp/install/robo_exp:/home/ri-one/ws/revero/install/revero:/home/ri-one/ssl_ws/RiAI/install/sender:/home/ri-one/ssl_ws/RiAI/install/reciever:/home/ri-one/ssl_ws/RiAI/install/proto_info:/home/ri-one/ssl_ws/RiAI/install/main:/home/ri-one/ssl_ws/RiAI/install/gui:/home/ri-one/ssl_ws/RiAI/install/message_info:/opt/ros/foxy')]), 'shell': False}
+[5.642602] (robo_exp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.643010] (robo_exp) StdoutLine: {'line': b'-- Installing: /home/ri-one/ws/robo_exp/install/robo_exp/lib/robo_exp/move\n'}
+[5.645577] (robo_exp) StdoutLine: {'line': b'-- Set runtime path of "/home/ri-one/ws/robo_exp/install/robo_exp/lib/robo_exp/move" to ""\n'}
+[5.645838] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/ament_index/resource_index/package_run_dependencies/robo_exp\n'}
+[5.646043] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/ament_index/resource_index/parent_prefix_path/robo_exp\n'}
+[5.646230] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/ament_prefix_path.sh\n'}
+[5.646390] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/ament_prefix_path.dsv\n'}
+[5.646568] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/path.sh\n'}
+[5.646712] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/environment/path.dsv\n'}
+[5.646841] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.bash\n'}
+[5.646968] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.sh\n'}
+[5.647094] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.zsh\n'}
+[5.647221] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/local_setup.dsv\n'}
+[5.647348] (robo_exp) StdoutLine: {'line': b'-- Installing: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.dsv\n'}
+[5.647475] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/ament_index/resource_index/packages/robo_exp\n'}
+[5.647616] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/cmake/robo_expConfig.cmake\n'}
+[5.647872] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/cmake/robo_expConfig-version.cmake\n'}
+[5.648008] (robo_exp) StdoutLine: {'line': b'-- Up-to-date: /home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.xml\n'}
+[5.649579] (robo_exp) CommandEnded: {'returncode': 0}
+[5.699935] (robo_exp) JobEnded: {'identifier': 'robo_exp', 'rc': 0}
+[5.700821] (-) EventReactorShutdown: {}

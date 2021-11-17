@@ -1,0 +1,74 @@
+[0.000000] (-) TimerEvent: {}
+[0.000162] (robo_exp) JobQueued: {'identifier': 'robo_exp', 'dependencies': OrderedDict()}
+[0.000205] (robo_exp) JobStarted: {'identifier': 'robo_exp'}
+[0.012592] (robo_exp) JobProgress: {'identifier': 'robo_exp', 'progress': 'cmake'}
+[0.014375] (robo_exp) JobProgress: {'identifier': 'robo_exp', 'progress': 'build'}
+[0.014433] (robo_exp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ri-one/ws/robo_exp/build/robo_exp', '--', '-j8', '-l8'], 'cwd': '/home/ri-one/ws/robo_exp/build/robo_exp', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ri-one'), ('LC_TIME', 'ja_JP.UTF-8'), ('SSH_AGENT_PID', '1413'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ri-one/ssl_ws/RiAI/install/sender/lib:/home/ri-one/ssl_ws/RiAI/install/proto_info/lib:/home/ri-one/ssl_ws/RiAI/install/message_info/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ri-one'), ('OLDPWD', '/home/ri-one'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ja_JP.UTF-8'), ('MANAGERPID', '1171'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/ri-one/ssl_ws/RiAI/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'ri-one'), ('JOURNAL_STREAM', '8:42787'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ri-one'), ('TERM', 'xterm-256color'), ('FLIR_GENTL64_CTI', '/opt/spinnaker/lib/flir-gentl/FLIR_GenTL.cti'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/opt/spinnaker/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/rionessl:@/tmp/.ICE-unix/1448,unix/rionessl:/tmp/.ICE-unix/1448'), ('INVOCATION_ID', 'ad8c25777fc64f7b80ec962a6125048d'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ja_JP.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4c8cab6b_7fd1_46c7_8ea2_a0829ad7624d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ja_JP.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.286'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ri-one/ssl_ws/RiAI/install/sender:/home/ri-one/ssl_ws/RiAI/install/reciever:/home/ri-one/ssl_ws/RiAI/install/proto_info:/home/ri-one/ssl_ws/RiAI/install/main:/home/ri-one/ssl_ws/RiAI/install/gui:/home/ri-one/ssl_ws/RiAI/install/message_info:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ja_JP.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ja_JP.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'ja_JP.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ri-one/ws/robo_exp/build/robo_exp'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ri-one/ssl_ws/RiAI/install/sender/lib/python3.8/site-packages:/home/ri-one/ssl_ws/RiAI/install/proto_info/lib/python3.8/site-packages:/home/ri-one/ssl_ws/RiAI/install/message_info/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'ja_JP.UTF-8'), ('LC_PAPER', 'ja_JP.UTF-8'), ('COLCON', '1'), ('GENICAM_GENTL64_PATH', '/opt/spinnaker/lib/flir-gentl'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/ri-one/ssl_ws/RiAI/install/sender:/home/ri-one/ssl_ws/RiAI/install/reciever:/home/ri-one/ssl_ws/RiAI/install/proto_info:/home/ri-one/ssl_ws/RiAI/install/main:/home/ri-one/ssl_ws/RiAI/install/gui:/home/ri-one/ssl_ws/RiAI/install/message_info:/opt/ros/foxy')]), 'shell': False}
+[0.067014] (robo_exp) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target move\x1b[0m\n'}
+[0.099059] (-) TimerEvent: {}
+[0.104745] (robo_exp) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/move.dir/src/main.cpp.o\x1b[0m\n'}
+[0.104959] (robo_exp) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o\x1b[0m\n'}
+[0.199195] (-) TimerEvent: {}
+[0.299555] (-) TimerEvent: {}
+[0.399883] (-) TimerEvent: {}
+[0.500214] (-) TimerEvent: {}
+[0.600580] (-) TimerEvent: {}
+[0.700901] (-) TimerEvent: {}
+[0.801202] (-) TimerEvent: {}
+[0.901518] (-) TimerEvent: {}
+[1.001849] (-) TimerEvent: {}
+[1.102211] (-) TimerEvent: {}
+[1.202560] (-) TimerEvent: {}
+[1.302894] (-) TimerEvent: {}
+[1.403212] (-) TimerEvent: {}
+[1.503557] (-) TimerEvent: {}
+[1.584316] (robo_exp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ri-one/ws/robo_exp/src/move.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Move::callback_position(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.584580] (robo_exp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ri-one/ws/robo_exp/src/move.cpp:16:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcout\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.584696] (robo_exp) StderrLine: {'line': b'   16 |  \x1b[01;31m\x1b[Kcout\x1b[m\x1b[K<<position->point.x<<endl;\n'}
+[1.584785] (robo_exp) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.584867] (robo_exp) StderrLine: {'line': b'      |  \x1b[32m\x1b[Kstd::cout\x1b[m\x1b[K\n'}
+[1.585003] (robo_exp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[1.585287] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.585445] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.585603] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.585761] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ri-one/ws/robo_exp/src/move.hpp:2\x1b[m\x1b[K,\n'}
+[1.585923] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ri-one/ws/robo_exp/src/move.cpp:1\x1b[m\x1b[K:\n'}
+[1.586093] (robo_exp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/iostream:61:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::cout\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.586259] (robo_exp) StderrLine: {'line': b'   61 |   extern ostream \x1b[01;36m\x1b[Kcout\x1b[m\x1b[K;  /// Linked to standard output\n'}
+[1.586413] (robo_exp) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.586569] (robo_exp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ri-one/ws/robo_exp/src/move.cpp:16:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kendl\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kstd::endl\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[1.586748] (robo_exp) StderrLine: {'line': b'   16 |  cout<<position->point.x<<\x1b[01;31m\x1b[Kendl\x1b[m\x1b[K;\n'}
+[1.586911] (robo_exp) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.587068] (robo_exp) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kstd::endl\x1b[m\x1b[K\n'}
+[1.587229] (robo_exp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/9/iostream:39\x1b[m\x1b[K,\n'}
+[1.587391] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executor.hpp:22\x1b[m\x1b[K,\n'}
+[1.587554] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26\x1b[m\x1b[K,\n'}
+[1.587713] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[1.587874] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[1.588032] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ri-one/ws/robo_exp/src/move.hpp:2\x1b[m\x1b[K,\n'}
+[1.588193] (robo_exp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/ri-one/ws/robo_exp/src/move.cpp:1\x1b[m\x1b[K:\n'}
+[1.588355] (robo_exp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/9/ostream:599:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::endl\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[1.588518] (robo_exp) StderrLine: {'line': b'  599 |     \x1b[01;36m\x1b[Kendl\x1b[m\x1b[K(basic_ostream<_CharT, _Traits>& __os)\n'}
+[1.588677] (robo_exp) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.603669] (-) TimerEvent: {}
+[1.704018] (-) TimerEvent: {}
+[1.804375] (-) TimerEvent: {}
+[1.904735] (-) TimerEvent: {}
+[2.005091] (-) TimerEvent: {}
+[2.105438] (-) TimerEvent: {}
+[2.205784] (-) TimerEvent: {}
+[2.306141] (-) TimerEvent: {}
+[2.406471] (-) TimerEvent: {}
+[2.506822] (-) TimerEvent: {}
+[2.607155] (-) TimerEvent: {}
+[2.707494] (-) TimerEvent: {}
+[2.807829] (-) TimerEvent: {}
+[2.908181] (-) TimerEvent: {}
+[3.008543] (-) TimerEvent: {}
+[3.108892] (-) TimerEvent: {}
+[3.113956] (robo_exp) StderrLine: {'line': b'make[2]: *** [CMakeFiles/move.dir/build.make:76: CMakeFiles/move.dir/src/move.cpp.o] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 1\n'}
+[3.114250] (robo_exp) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move.dir/all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[3.114501] (robo_exp) StderrLine: {'line': b'make: *** [Makefile:141: all] \xe3\x82\xa8\xe3\x83\xa9\xe3\x83\xbc 2\n'}
+[3.116568] (robo_exp) CommandEnded: {'returncode': 2}
+[3.161686] (robo_exp) JobEnded: {'identifier': 'robo_exp', 'rc': 2}
+[3.172265] (-) EventReactorShutdown: {}

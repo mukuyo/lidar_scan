@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target move[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:[m[K In member function ‘[01m[Kvoid Move::callback_position(geometry_msgs::msg::PointStamped_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/ri-one/ws/robo_exp/src/move.cpp:17:8:[m[K [01;31m[Kerror: [m[K‘[01m[Ktarget_point[m[K’ was not declared in this scope; did you mean ‘[01m[Ktarget_position[m[K’?
+   17 |  cout<<[01;31m[Ktarget_point[m[K.x<<endl;
+      |        [01;31m[K^~~~~~~~~~~~[m[K
+      |        [32m[Ktarget_position[m[K
+make[2]: *** [CMakeFiles/move.dir/build.make:76: CMakeFiles/move.dir/src/move.cpp.o] エラー 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move.dir/all] エラー 2
+make: *** [Makefile:141: all] エラー 2

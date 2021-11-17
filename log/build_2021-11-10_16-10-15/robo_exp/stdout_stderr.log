@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target move[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/move.dir/src/move.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/move.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable move[0m
+[100%] Built target move
+-- Install configuration: ""
+-- Installing: /home/ri-one/ws/robo_exp/install/robo_exp/lib/robo_exp/move
+-- Set runtime path of "/home/ri-one/ws/robo_exp/install/robo_exp/lib/robo_exp/move" to ""
+CMake Error at cmake_install.cmake:61 (file):
+  file INSTALL cannot find "/home/ri-one/ws/robo_exp/launch": No such file or
+  directory.
+
+

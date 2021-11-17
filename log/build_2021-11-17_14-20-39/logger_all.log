@@ -1,0 +1,98 @@
+[0.342s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.342s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc777b73cd0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc777b73cd0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc777b82280>)
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.348s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.348s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ri-one/ws/robo_exp'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.365s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'robo_exp'
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'robo_exp' build argument 'cmake_args' from command line to 'None'
+[0.387s] Level 5:colcon.colcon_core.verb:set package 'robo_exp' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robo_exp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robo_exp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robo_exp' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robo_exp' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robo_exp' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robo_exp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'robo_exp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'robo_exp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ri-one/ws/robo_exp/build/robo_exp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ri-one/ws/robo_exp/install/robo_exp', 'merge_install': False, 'path': '/home/ri-one/ws/robo_exp', 'symlink_install': False, 'test_result_base': None}
+[0.388s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.390s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.391s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ri-one/ws/robo_exp' with build type 'ament_cmake'
+[0.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ri-one/ws/robo_exp'
+[0.394s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.395s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.395s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.398s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ri-one/ws/robo_exp/build/robo_exp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8
+[5.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ri-one/ws/robo_exp/build/robo_exp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8
+[6.024s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ri-one/ws/robo_exp/build/robo_exp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ri-one/ws/robo_exp/build/robo_exp
+[6.039s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_exp)
+[6.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ri-one/ws/robo_exp/build/robo_exp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/ri-one/ws/robo_exp/build/robo_exp
+[6.043s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp' for CMake module files
+[6.044s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp' for CMake config files
+[6.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_exp', 'cmake_prefix_path')
+[6.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/hook/cmake_prefix_path.ps1'
+[6.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/hook/cmake_prefix_path.dsv'
+[6.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/hook/cmake_prefix_path.sh'
+[6.048s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp/lib'
+[6.049s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp/bin'
+[6.049s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp/lib/pkgconfig/robo_exp.pc'
+[6.049s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp/lib/python3.8/site-packages'
+[6.050s] INFO:colcon.colcon_core.shell:Creating package script '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.ps1'
+[6.050s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.dsv'
+[6.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.sh'
+[6.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.bash'
+[6.052s] INFO:colcon.colcon_core.shell:Creating package script '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.zsh'
+[6.053s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ri-one/ws/robo_exp/install/robo_exp/share/colcon-core/packages/robo_exp)
+[6.082s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robo_exp)
+[6.083s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp' for CMake module files
+[6.084s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp' for CMake config files
+[6.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('robo_exp', 'cmake_prefix_path')
+[6.085s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/hook/cmake_prefix_path.ps1'
+[6.085s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/hook/cmake_prefix_path.dsv'
+[6.086s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/hook/cmake_prefix_path.sh'
+[6.086s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp/lib'
+[6.086s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp/bin'
+[6.086s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp/lib/pkgconfig/robo_exp.pc'
+[6.087s] Level 1:colcon.colcon_core.environment:checking '/home/ri-one/ws/robo_exp/install/robo_exp/lib/python3.8/site-packages'
+[6.087s] INFO:colcon.colcon_core.shell:Creating package script '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.ps1'
+[6.088s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.dsv'
+[6.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.sh'
+[6.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.bash'
+[6.089s] INFO:colcon.colcon_core.shell:Creating package script '/home/ri-one/ws/robo_exp/install/robo_exp/share/robo_exp/package.zsh'
+[6.089s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ri-one/ws/robo_exp/install/robo_exp/share/colcon-core/packages/robo_exp)
+[6.090s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.091s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.091s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.097s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.097s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.097s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.114s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.115s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ri-one/ws/robo_exp/install/local_setup.ps1'
+[6.116s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ri-one/ws/robo_exp/install/_local_setup_util_ps1.py'
+[6.117s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ri-one/ws/robo_exp/install/setup.ps1'
+[6.120s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ri-one/ws/robo_exp/install/local_setup.sh'
+[6.121s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ri-one/ws/robo_exp/install/_local_setup_util_sh.py'
+[6.121s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ri-one/ws/robo_exp/install/setup.sh'
+[6.124s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ri-one/ws/robo_exp/install/local_setup.bash'
+[6.125s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ri-one/ws/robo_exp/install/setup.bash'
+[6.128s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ri-one/ws/robo_exp/install/local_setup.zsh'
+[6.129s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ri-one/ws/robo_exp/install/setup.zsh'

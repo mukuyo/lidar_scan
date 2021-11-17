@@ -1,0 +1,10 @@
+[0.015s] Invoking command in '/home/ri-one/ws/robo_exp/build/robo_exp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8
+[0.085s] [ 33%] [32mBuilding CXX object CMakeFiles/move.dir/src/main.cpp.o[0m
+[1.530s] [01m[K/home/ri-one/ws/robo_exp/src/main.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.530s] [01m[K/home/ri-one/ws/robo_exp/src/main.cpp:9:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs[m[K’ has not been declared
+[1.530s]     9 |   [01;31m[Kgeometry_msgs[m[K::msg::pose target_position;
+[1.531s]       |   [01;31m[K^~~~~~~~~~~~~[m[K
+[1.942s] make[2]: *** [CMakeFiles/move.dir/build.make:63: CMakeFiles/move.dir/src/main.cpp.o] エラー 1
+[1.942s] make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/move.dir/all] エラー 2
+[1.942s] make: *** [Makefile:141: all] エラー 2
+[1.944s] Invoked command in '/home/ri-one/ws/robo_exp/build/robo_exp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/ri-one/ws/robo_exp/build/robo_exp -- -j8 -l8
